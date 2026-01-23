@@ -211,6 +211,7 @@ print("Your data is : ", Data)
 print()
 
 FData10 = list(filter(lambda no : no % 2 == 0, Data))
-print("Even numbers in this data are :", FData10)
+print("Even numbers in this data are :", len(FData10))
 
 print()
+
